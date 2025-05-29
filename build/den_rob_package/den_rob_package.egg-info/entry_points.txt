@@ -1,0 +1,4 @@
+[console_scripts]
+lidar_node = den_rob_package.lidar_node:main
+motor_controller = den_rob_package.motor_controller:main
+sensor_listener = den_rob_package.sensor_listener:main
