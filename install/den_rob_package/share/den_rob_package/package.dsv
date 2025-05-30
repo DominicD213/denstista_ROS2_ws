@@ -4,6 +4,3 @@ source;share/den_rob_package/hook/pythonpath.sh
 source;share/den_rob_package/hook/ament_prefix_path.ps1
 source;share/den_rob_package/hook/ament_prefix_path.dsv
 source;share/den_rob_package/hook/ament_prefix_path.sh
-source;../../build/den_rob_package/share/den_rob_package/hook/pythonpath_develop.ps1
-source;../../build/den_rob_package/share/den_rob_package/hook/pythonpath_develop.dsv
-source;../../build/den_rob_package/share/den_rob_package/hook/pythonpath_develop.sh

@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: den-rob-package
+Version: 0.1.0
+Summary: Advanced ROS 2 package for Project Dentista robot software stack.
+Maintainer: Dominic Digiacomo
+Maintainer-email: dominicdigiacomo16@gmail.com
+License: MIT

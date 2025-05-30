@@ -1,0 +1,46 @@
+[0.308s] Invoking command in '/home/dominicd/Desktop/dentista_drive_ws/src/denstista_ROS2_Drive': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/dominicd/Desktop/dentista_drive_ws/build/den_rob_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dominicd/Desktop/dentista_drive_ws/install/den_rob_package/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/den_rob_package build --build-base /home/dominicd/Desktop/dentista_drive_ws/build/den_rob_package/build install --record /home/dominicd/Desktop/dentista_drive_ws/build/den_rob_package/install.log --single-version-externally-managed install_data
+[0.405s] running egg_info
+[0.405s] creating ../../build/den_rob_package/den_rob_package.egg-info
+[0.409s] writing ../../build/den_rob_package/den_rob_package.egg-info/PKG-INFO
+[0.410s] writing dependency_links to ../../build/den_rob_package/den_rob_package.egg-info/dependency_links.txt
+[0.410s] writing entry points to ../../build/den_rob_package/den_rob_package.egg-info/entry_points.txt
+[0.410s] writing requirements to ../../build/den_rob_package/den_rob_package.egg-info/requires.txt
+[0.410s] writing top-level names to ../../build/den_rob_package/den_rob_package.egg-info/top_level.txt
+[0.410s] writing manifest file '../../build/den_rob_package/den_rob_package.egg-info/SOURCES.txt'
+[0.422s] reading manifest file '../../build/den_rob_package/den_rob_package.egg-info/SOURCES.txt'
+[0.422s] writing manifest file '../../build/den_rob_package/den_rob_package.egg-info/SOURCES.txt'
+[0.422s] running build
+[0.422s] running build_py
+[0.422s] creating /home/dominicd/Desktop/dentista_drive_ws/build/den_rob_package/build
+[0.422s] creating /home/dominicd/Desktop/dentista_drive_ws/build/den_rob_package/build/lib
+[0.422s] creating /home/dominicd/Desktop/dentista_drive_ws/build/den_rob_package/build/lib/den_rob_package
+[0.422s] copying den_rob_package/__init__.py -> /home/dominicd/Desktop/dentista_drive_ws/build/den_rob_package/build/lib/den_rob_package
+[0.422s] copying den_rob_package/motor_controller.py -> /home/dominicd/Desktop/dentista_drive_ws/build/den_rob_package/build/lib/den_rob_package
+[0.422s] copying den_rob_package/odom_publisher.py -> /home/dominicd/Desktop/dentista_drive_ws/build/den_rob_package/build/lib/den_rob_package
+[0.422s] running install
+[0.425s] running install_lib
+[0.431s] creating /home/dominicd/Desktop/dentista_drive_ws/install/den_rob_package/lib/python3.12/site-packages/den_rob_package
+[0.431s] copying /home/dominicd/Desktop/dentista_drive_ws/build/den_rob_package/build/lib/den_rob_package/__init__.py -> /home/dominicd/Desktop/dentista_drive_ws/install/den_rob_package/lib/python3.12/site-packages/den_rob_package
+[0.431s] copying /home/dominicd/Desktop/dentista_drive_ws/build/den_rob_package/build/lib/den_rob_package/motor_controller.py -> /home/dominicd/Desktop/dentista_drive_ws/install/den_rob_package/lib/python3.12/site-packages/den_rob_package
+[0.431s] copying /home/dominicd/Desktop/dentista_drive_ws/build/den_rob_package/build/lib/den_rob_package/odom_publisher.py -> /home/dominicd/Desktop/dentista_drive_ws/install/den_rob_package/lib/python3.12/site-packages/den_rob_package
+[0.432s] byte-compiling /home/dominicd/Desktop/dentista_drive_ws/install/den_rob_package/lib/python3.12/site-packages/den_rob_package/__init__.py to __init__.cpython-312.pyc
+[0.432s] byte-compiling /home/dominicd/Desktop/dentista_drive_ws/install/den_rob_package/lib/python3.12/site-packages/den_rob_package/motor_controller.py to motor_controller.cpython-312.pyc
+[0.432s] byte-compiling /home/dominicd/Desktop/dentista_drive_ws/install/den_rob_package/lib/python3.12/site-packages/den_rob_package/odom_publisher.py to odom_publisher.cpython-312.pyc
+[0.432s] running install_data
+[0.432s] creating /home/dominicd/Desktop/dentista_drive_ws/install/den_rob_package/share/ament_index
+[0.432s] creating /home/dominicd/Desktop/dentista_drive_ws/install/den_rob_package/share/ament_index/resource_index
+[0.432s] creating /home/dominicd/Desktop/dentista_drive_ws/install/den_rob_package/share/ament_index/resource_index/packages
+[0.432s] copying resource/den_rob_package -> /home/dominicd/Desktop/dentista_drive_ws/install/den_rob_package/share/ament_index/resource_index/packages
+[0.432s] copying package.xml -> /home/dominicd/Desktop/dentista_drive_ws/install/den_rob_package/share/den_rob_package
+[0.432s] creating /home/dominicd/Desktop/dentista_drive_ws/install/den_rob_package/share/den_rob_package/launch
+[0.432s] copying launch/slam_with_rplidar.launch.py -> /home/dominicd/Desktop/dentista_drive_ws/install/den_rob_package/share/den_rob_package/launch
+[0.433s] creating /home/dominicd/Desktop/dentista_drive_ws/install/den_rob_package/share/den_rob_package/config
+[0.433s] creating /home/dominicd/Desktop/dentista_drive_ws/install/den_rob_package/share/den_rob_package/data
+[0.433s] running install_egg_info
+[0.440s] Copying ../../build/den_rob_package/den_rob_package.egg-info to /home/dominicd/Desktop/dentista_drive_ws/install/den_rob_package/lib/python3.12/site-packages/den_rob_package-0.1.0-py3.12.egg-info
+[0.440s] running install_scripts
+[0.489s] Installing motor_controller script to /home/dominicd/Desktop/dentista_drive_ws/install/den_rob_package/lib/den_rob_package
+[0.489s] Installing odom_publisher script to /home/dominicd/Desktop/dentista_drive_ws/install/den_rob_package/lib/den_rob_package
+[0.489s] Installing sensor_listener script to /home/dominicd/Desktop/dentista_drive_ws/install/den_rob_package/lib/den_rob_package
+[0.490s] writing list of installed files to '/home/dominicd/Desktop/dentista_drive_ws/build/den_rob_package/install.log'
+[0.504s] Invoked command in '/home/dominicd/Desktop/dentista_drive_ws/src/denstista_ROS2_Drive' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/dominicd/Desktop/dentista_drive_ws/build/den_rob_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dominicd/Desktop/dentista_drive_ws/install/den_rob_package/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/den_rob_package build --build-base /home/dominicd/Desktop/dentista_drive_ws/build/den_rob_package/build install --record /home/dominicd/Desktop/dentista_drive_ws/build/den_rob_package/install.log --single-version-externally-managed install_data

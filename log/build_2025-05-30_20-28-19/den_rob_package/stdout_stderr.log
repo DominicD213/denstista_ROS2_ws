@@ -1,0 +1,44 @@
+running egg_info
+creating ../../build/den_rob_package/den_rob_package.egg-info
+writing ../../build/den_rob_package/den_rob_package.egg-info/PKG-INFO
+writing dependency_links to ../../build/den_rob_package/den_rob_package.egg-info/dependency_links.txt
+writing entry points to ../../build/den_rob_package/den_rob_package.egg-info/entry_points.txt
+writing requirements to ../../build/den_rob_package/den_rob_package.egg-info/requires.txt
+writing top-level names to ../../build/den_rob_package/den_rob_package.egg-info/top_level.txt
+writing manifest file '../../build/den_rob_package/den_rob_package.egg-info/SOURCES.txt'
+reading manifest file '../../build/den_rob_package/den_rob_package.egg-info/SOURCES.txt'
+writing manifest file '../../build/den_rob_package/den_rob_package.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/dominicd/Desktop/dentista_drive_ws/build/den_rob_package/build
+creating /home/dominicd/Desktop/dentista_drive_ws/build/den_rob_package/build/lib
+creating /home/dominicd/Desktop/dentista_drive_ws/build/den_rob_package/build/lib/den_rob_package
+copying den_rob_package/__init__.py -> /home/dominicd/Desktop/dentista_drive_ws/build/den_rob_package/build/lib/den_rob_package
+copying den_rob_package/motor_controller.py -> /home/dominicd/Desktop/dentista_drive_ws/build/den_rob_package/build/lib/den_rob_package
+copying den_rob_package/odom_publisher.py -> /home/dominicd/Desktop/dentista_drive_ws/build/den_rob_package/build/lib/den_rob_package
+running install
+running install_lib
+creating /home/dominicd/Desktop/dentista_drive_ws/install/den_rob_package/lib/python3.12/site-packages/den_rob_package
+copying /home/dominicd/Desktop/dentista_drive_ws/build/den_rob_package/build/lib/den_rob_package/__init__.py -> /home/dominicd/Desktop/dentista_drive_ws/install/den_rob_package/lib/python3.12/site-packages/den_rob_package
+copying /home/dominicd/Desktop/dentista_drive_ws/build/den_rob_package/build/lib/den_rob_package/motor_controller.py -> /home/dominicd/Desktop/dentista_drive_ws/install/den_rob_package/lib/python3.12/site-packages/den_rob_package
+copying /home/dominicd/Desktop/dentista_drive_ws/build/den_rob_package/build/lib/den_rob_package/odom_publisher.py -> /home/dominicd/Desktop/dentista_drive_ws/install/den_rob_package/lib/python3.12/site-packages/den_rob_package
+byte-compiling /home/dominicd/Desktop/dentista_drive_ws/install/den_rob_package/lib/python3.12/site-packages/den_rob_package/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/dominicd/Desktop/dentista_drive_ws/install/den_rob_package/lib/python3.12/site-packages/den_rob_package/motor_controller.py to motor_controller.cpython-312.pyc
+byte-compiling /home/dominicd/Desktop/dentista_drive_ws/install/den_rob_package/lib/python3.12/site-packages/den_rob_package/odom_publisher.py to odom_publisher.cpython-312.pyc
+running install_data
+creating /home/dominicd/Desktop/dentista_drive_ws/install/den_rob_package/share/ament_index
+creating /home/dominicd/Desktop/dentista_drive_ws/install/den_rob_package/share/ament_index/resource_index
+creating /home/dominicd/Desktop/dentista_drive_ws/install/den_rob_package/share/ament_index/resource_index/packages
+copying resource/den_rob_package -> /home/dominicd/Desktop/dentista_drive_ws/install/den_rob_package/share/ament_index/resource_index/packages
+copying package.xml -> /home/dominicd/Desktop/dentista_drive_ws/install/den_rob_package/share/den_rob_package
+creating /home/dominicd/Desktop/dentista_drive_ws/install/den_rob_package/share/den_rob_package/launch
+copying launch/slam_with_rplidar.launch.py -> /home/dominicd/Desktop/dentista_drive_ws/install/den_rob_package/share/den_rob_package/launch
+creating /home/dominicd/Desktop/dentista_drive_ws/install/den_rob_package/share/den_rob_package/config
+creating /home/dominicd/Desktop/dentista_drive_ws/install/den_rob_package/share/den_rob_package/data
+running install_egg_info
+Copying ../../build/den_rob_package/den_rob_package.egg-info to /home/dominicd/Desktop/dentista_drive_ws/install/den_rob_package/lib/python3.12/site-packages/den_rob_package-0.1.0-py3.12.egg-info
+running install_scripts
+Installing motor_controller script to /home/dominicd/Desktop/dentista_drive_ws/install/den_rob_package/lib/den_rob_package
+Installing odom_publisher script to /home/dominicd/Desktop/dentista_drive_ws/install/den_rob_package/lib/den_rob_package
+Installing sensor_listener script to /home/dominicd/Desktop/dentista_drive_ws/install/den_rob_package/lib/den_rob_package
+writing list of installed files to '/home/dominicd/Desktop/dentista_drive_ws/build/den_rob_package/install.log'
